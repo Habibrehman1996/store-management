@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    color: #333333;
+}
+
+.cl-message {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cl-message-input {
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.cl-message-input:focus {
+    outline: none;
+    border-color: #388E3C;
+}
+
+.cl-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.cl-button:hover {
+    background-color: #388E3C;
+}
